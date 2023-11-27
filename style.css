@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300&amp;display=swap");
+
+body {
+    width:  100%;
+    color: #FEFEFE;
+    font: 100 100%/1.6 "Heebo", sans-serif;
+    overflow-x: hidden;
+}
+
+.cena {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(94, 170, 201) url("https://i.imgur.com/QM2XpuS.jpeg") center/cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: 300px;
+    color: white;
+    background: #fefefe13;
+    backdrop-filter:  blur(10px);
+    border: 1px solid #fefefe2e;
+    border-radius: 15px;
+    box-shadow: 0 10px 35px 0 #001c50a6;
+    overflow: hidden;
+    padding: 20px 30px 50px 30px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.cabeçario {
+    font-size: 1.35rem;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.figure {
+    height: auto;
+    margin: 0 auto;
+    max-width: 225px;
+    width: 60%;
+}
+
+.image {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.input {
+    width: 100%;
+    background-color: #fefefe13;
+    border: 1px solid #fefefe4d;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #FEFEFE;
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    padding: 10px;
+}
+
+.input:focus {
+    background: #fefefe14;
+    border: 1px solid #fefefebf;
+    outline: none;
+}
+
+.button {
+    background: #fefefea6;
+    border: none;
+    border-radius: 3px;
+    color: #362100;
+    margin: 15px auto 0 auto;
+    padding: 8px 20px;
+}
+
+.button:active {
+    background: #ffffffbf;
+    outline: none;
+}
+
